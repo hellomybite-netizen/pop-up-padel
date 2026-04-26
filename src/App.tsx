@@ -56,9 +56,9 @@ function Navbar({ onBookClick }: { onBookClick: () => void }) {
           <div className="w-8 h-8 bg-primary-gradient rounded-full flex items-center justify-center">
             <CircleDot className="text-white w-5 h-5" />
           </div>
-          <span className="font-black text-xl tracking-tighter uppercase italic">
-            POP UP PADEL<span className="text-brand-accent">.ID</span>
-          </span>
+          <img src="/logo.png" 
+            alt="Logo Pop Up Padel" 
+            className="h-10 w-auto" />
         </div>
         
         <div className="hidden md:flex items-center gap-8 text-[11px] font-bold uppercase tracking-[0.2em] text-black">
