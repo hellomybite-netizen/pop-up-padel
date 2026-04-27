@@ -528,9 +528,8 @@ function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col items-center relative z-10">
         <div className="grid md:grid-cols-4 gap-16 w-full mb-32">
           <div className="md:col-span-1">
-             <div className="flex items-center gap-2 mb-10">
-                <div className="w-8 h-8 bg-brand-accent rounded-full flex items-center justify-center">
-                  <CircleDot className="text-black w-5 h-5" />
+            <div className="flex items-center gap-2 mb-10">
+             <img src="./logo.png" alt="Logo Pop Up Padel" className="h-20 w-auto" />
                 </div>
                 <span className="font-black text-xl tracking-tighter uppercase italic">
                   POP UP PADEL<span className="text-brand-accent">.ID</span>
